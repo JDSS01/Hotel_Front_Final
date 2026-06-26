@@ -1,0 +1,48 @@
+/* =========================================
+   PADRONIZAÇÃO VISUAL DO HOTEL (TEMA ESCURO)
+   ========================================= */
+
+/* 1. Fundo escuro elegante para TODAS as telas do sistema */
+body {
+  background-color: #2f4146 !important;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 2. Transformando os 'Cards' de Listagem nas caixas brancas modernas */
+.card {
+  background-color: #f8f9fa !important;
+  border-radius: 15px !important;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.3) !important;
+  border: none !important;
+  border-bottom: 10px solid white !important;
+  padding: 20px !important;
+  margin-top: 30px !important;
+  margin-bottom: 40px !important;
+}
+
+/* 3. Padronizando os Títulos das Listagens */
+.card-header, .card-title {
+  background-color: transparent !important;
+  border-bottom: 1px solid #ccc !important;
+  color: #2c3e50 !important;
+  font-weight: bold !important;
+  font-size: 1.8rem !important;
+  text-align: center !important;
+  padding-bottom: 15px !important;
+  margin-bottom: 20px !important;
+}
+
+/* 4. Padronizando as caixinhas de digitar (Inputs e Selects) */
+.form-control {
+  background-color: #eaeaea !important;
+  border: 1px solid #ccc !important;
+  border-radius: 8px !important;
+  color: #333 !important;
+}
+
+/* Efeito ao clicar na caixinha de digitar */
+.form-control:focus {
+  background-color: #ffffff !important;
+  border-color: #1877f2 !important;
+  box-shadow: 0 0 5px rgba(24, 119, 242, 0.4) !important;
+}
